@@ -1,0 +1,28 @@
+#viewDiv {
+  display: none;
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #fff9f3;
+  float: right;
+  padding: 30px;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+#fnameView,
+#lnameView,
+#emailView,
+#contactView {
+  background-color: #fff9f3;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#hideBtn {
+  float: bottom;
+  background-color: #ffdab9;
+  margin: 20px;
+  margin-left: 60px;
+  border-radius: 5px;
+}

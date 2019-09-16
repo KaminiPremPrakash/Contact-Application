@@ -1,0 +1,30 @@
+#formParent {
+  display: none;
+  background-color: #fff9f3;
+  height: 400px;
+  width: 550px;
+  border: 1px solid black;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.label {
+  padding-left: 70px;
+}
+
+#email {
+  margin-left: 50px;
+}
+
+#contact {
+  margin-left: 10px;
+}
+
+#fname,
+#lname {
+  margin-left: 15px;
+}
+
+div {
+  display: inline-block;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    </meta>
+    <title></title>
+</head>
+
+<body>
+    <!-- add button which will display the form on click -->
+    <button id="add">Add Contact &#x2b;</button><br>
+    <form autocomplete="off">
+        <!-- form to enter the user data -->
+        <div id="formParent"><br>
+            <h2 align="center">Add Details</h2>
+            <div class="label"> First Name:</div> <input type="text" id="fname" required>
+            <br><br>
+            <div class="label">Last Name:</div> <input type="text" id="lname" required>
+            <br><br>
+            <div class="label"> Email: </div><input type="text" id="email" required>
+            <br><br>
+            <div class="label"> Contact No.: </div><input type="number" id="contact" required>
+            <br>
+            <!-- onclick submit button validations are fired -->
+            <input type="submit" value="Save" id="save">
+        </div>
+    </form>
+    <!-- view details div to display the contact details -->
+    <div id="viewDiv">
+        <h3 align="center">Contact Details</h3>
+        First Name: <div id="fnameView"></div><br>
+        Last Name: <div id="lnameView"></div><br>
+        Email: <div id="emailView"></div><br>
+        Contact No.:<div id="contactView"></div><br>
+        <!-- Hide btn which hides the div -->
+        <button id="hideBtn">Hide View</button>
+    </div>
+</body>
+
+</html>
